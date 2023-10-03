@@ -5,7 +5,7 @@
 + Bật terminal chạy command sau: `conda activate`.
 + Tạo virtual environment có tên `datamining`: `conda create --name datamining python=3.8`.
 + Chạy command: `conda activate datamining`, để khởi động virtual environment `datamining` vừa tạo.
-+ Clone src code về máy `git clone https://github.com/duongngyn0510/Content-based-job-recommendation.git` (lưu ý phải cài đặt [Gitbash](https://git-scm.com/downloads)).
++ Clone src code về máy `git clone https://github.com/mchien15/Content-based-job-recommendation.git` (lưu ý phải cài đặt [Gitbash](https://git-scm.com/downloads)).
 + Change dir để tới folder sau khi clone: `cd Content-based-job-recommendation`.
 + Do tập data lớn hơn so với giới hạn quả github nên sẽ tải [data](https://www.kaggle.com/datasets/kandij/job-recommendation-datasets) trực tiếp về máy. Sẽ có 4 file data cần tải đó là: `Combined_Jobs_Final.csv`, `Experience.csv`, `Job_Views.csv` và `Positions_Of_Interest.csv`.
 + Tạo thêm folder `data` tại chính folder `Content-based-job-recommendation` rồi copy 4 file vừa tải xuống vào folder `data`.
